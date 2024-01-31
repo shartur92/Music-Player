@@ -1,0 +1,11 @@
+.main_frame  {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    background: radial-gradient(41.26% 103.18% at 50% 50%, #172651 0%, #010101 100%);
+    padding: 32px 104px;
+}

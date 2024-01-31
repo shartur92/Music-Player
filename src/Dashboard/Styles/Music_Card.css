@@ -1,0 +1,112 @@
+.card_wrapper {
+    display: flex;
+    width: 260px;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    border-radius: 16px;
+    background: #424242;
+    
+}
+
+.img {
+    width: 228px;
+    height: 160px;
+    margin-top: 16px;
+    margin-bottom:12px;
+    border-radius: 4px 4px 0px 0px;
+    background: url('../components//assets/img1.png'), lightgray 50% / cover no-repeat;
+    
+}
+
+.card_titles {
+    display: flex;
+    width: 228px;
+    height: 43px;
+    margin-left: 16px;
+    margin-bottom: 12px;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+  
+}
+
+.music_title {
+    color: var(--White, #FFF);
+    font-family: Inter;
+    margin-bottom: 3px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 125% */
+    letter-spacing: -0.5px;
+}
+
+.artist {
+    color: var(--White, #FFF);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.5px;
+}
+
+.card_footer {
+    display: flex;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-self: stretch;
+}
+
+.tracks_likes {
+    display: flex;
+    width: 152px;
+    align-items: center;
+    gap: 12px;
+}
+
+
+
+.tracks {
+    color: var(--White, #FFF);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 183.333% */
+    letter-spacing: 0.25px;
+}
+
+.svg_wrapper {
+    margin: 3px ;
+    padding-bottom: 3px;
+}
+
+.likes {
+    color: var(--White, #FFF);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 183.333% */
+    letter-spacing: 0.25px;
+}
+
+.play_btn {
+    display: flex;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+    background: var(--White, #FFF);
+}

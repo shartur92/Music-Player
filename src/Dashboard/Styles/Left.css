@@ -1,0 +1,42 @@
+.left_frame {
+    display: flex;
+    width: 323px;
+    padding: 32px 24px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    background: radial-gradient(41.26% 103.18% at 50% 50%, #172651 0%, #010101 100%);
+    border-radius: 32px;
+    background: rgba(66, 133, 244, 0.20);
+}
+
+.logo_name {
+    display: flex;
+    padding: 0px 16px;
+    align-items: center;
+    gap: 16px;
+}
+
+.logo {
+    display: flex;
+    width: 40px;
+    height: 41px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.app_name {
+    color: #D7EDFF;
+    width: 112px;
+    font-family: "Source Sans Pro";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0px;
+    /* 0% */
+    text-transform: capitalize;
+}
+

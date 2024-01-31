@@ -1,0 +1,7 @@
+.menu_list {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+}

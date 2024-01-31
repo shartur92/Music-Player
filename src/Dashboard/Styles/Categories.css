@@ -1,0 +1,8 @@
+.buttons {
+    display: flex;
+    height: 40px;
+    margin: 0;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}

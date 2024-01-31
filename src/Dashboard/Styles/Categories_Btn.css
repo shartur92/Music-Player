@@ -1,0 +1,10 @@
+.cat_btn {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 32px;
+    border: 1px solid #E5E5E5;
+    background-color: inherit;
+    color: #E5E5E5;
+}
